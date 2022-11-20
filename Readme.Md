@@ -17,7 +17,13 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-###### Then create ``.env`` file and paste code from `.sample.env` file and add validate information.
+
+###### Install PostgresSQL db
+```psql
+pip install 'databases[postgresql]'
+```
+
+Then create ``.env`` file and paste code from `.sample.env` file and add validate information.
 
 -------------------------------------------
 ```bash
