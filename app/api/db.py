@@ -4,6 +4,7 @@ from sqlalchemy import (Column, Integer, MetaData, String, Table,
 from databases import Database
 
 DATABASE_URL = 'postgresql://movie_user:movie_password@localhost/movie_db'
+DATABASE_URI = 'postgresql://movie_user:movie_password@localhost/movie_db'
 
 engine = create_engine(DATABASE_URL)
 metadata = MetaData()
