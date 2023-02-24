@@ -8,11 +8,13 @@ movies = APIRouter()
 
 
 @movies.get('/', response_model=List[MovieOut])
+# Get all movies
 async def index():
     return await db_manager.get_all_movies()
 
 
 @movies.post('/', status_code=201)
+# Add new movie
 async def add_movie(payload: MovieIn):
     movie_id = await db_manager.add_movie(payload)
     response = {
@@ -31,6 +33,7 @@ async def update_movie(id: int, payload: MovieIn):
 
 
 @movies.put('/{id}')
+# Update movie
 async def update_movie(id: int, payload: MovieIn):
     movie = await db_manager.get_movie(id)
     if not movie:
@@ -45,6 +48,7 @@ async def update_movie(id: int, payload: MovieIn):
 
 
 @movies.delete('/{id}')
+# Delete movie
 async def delete_movie(id: int):
     movie = await db_manager.get_movie(id)
     if not movie:
