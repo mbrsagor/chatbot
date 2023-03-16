@@ -18,3 +18,14 @@ async def shutdown():
 
 
 app.include_router(movies)
+
+"""
+Example-1:
+https://github.com/flavien-hugs/fastapi-book-microservice
+Example-2:
+https://github.com/scalablescripts/fastapi-microservices
+Example-3:
+https://github.com/marttp/fastapi-microservice
+Example-4:
+https://github.com/paurakhsharma/python-microservice-fastapi
+"""
