@@ -8,8 +8,8 @@ from .chatbot import generate_response
 from .storage import append_message
 
 app = FastAPI()
-templates = Jinja2Templates(directory="app/templates")
-app.mount("/static", StaticFiles(directory="app/static"), name="static")
+templates = Jinja2Templates(directory="templates")
+app.mount("/static", StaticFiles(directory="static"), name="static")
 
 @app.get("/", response_class=HTMLResponse)
 async def get_index(request: Request):
@@ -32,6 +32,7 @@ class ConnectionManager:
 
 manager = ConnectionManager()
 
+
 @app.websocket("/ws/{client_id}")
 async def websocket_endpoint(websocket: WebSocket, client_id: str):
     await manager.connect(websocket, client_id)
@@ -51,4 +52,3 @@ async def websocket_endpoint(websocket: WebSocket, client_id: str):
             await manager.send_personal_message({"sender": "bot", "message": reply_text, "meta": bot_resp}, websocket)
     except WebSocketDisconnect:
         manager.disconnect(client_id)
-
