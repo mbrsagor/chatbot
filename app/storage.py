@@ -1,4 +1,3 @@
-# app/storage.py
 import json
 from pathlib import Path
 from datetime import datetime
@@ -21,4 +20,3 @@ def append_message(session_id: str, sender: str, message: str):
             logs = []
     logs.append(entry)
     LOG_PATH.write_text(json.dumps(logs, indent=2))
-

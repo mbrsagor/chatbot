@@ -1,5 +1,5 @@
 # tests/test_chatbot.py
-from chatbot import generate_response
+from app.chatbot import generate_response
 
 def test_greeting():
     r = generate_response("Hi")

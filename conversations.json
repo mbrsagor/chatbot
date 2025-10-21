@@ -1,0 +1,86 @@
+[
+  {
+    "timestamp": "2025-10-21T18:12:42.889569Z",
+    "session": "client-ne7hoq5",
+    "sender": "user",
+    "message": "hello"
+  },
+  {
+    "timestamp": "2025-10-21T18:12:42.891458Z",
+    "session": "client-ne7hoq5",
+    "sender": "bot",
+    "message": "Hello! How can I help you today?"
+  },
+  {
+    "timestamp": "2025-10-21T18:13:00.310471Z",
+    "session": "client-ne7hoq5",
+    "sender": "user",
+    "message": "I can I learn python?"
+  },
+  {
+    "timestamp": "2025-10-21T18:13:00.316573Z",
+    "session": "client-ne7hoq5",
+    "sender": "bot",
+    "message": "I heard: \"I can I learn python?\". I don't fully understand yet \u2014 try asking 'help' or 'features'."
+  },
+  {
+    "timestamp": "2025-10-21T18:13:16.397703Z",
+    "session": "client-ne7hoq5",
+    "sender": "user",
+    "message": "hello"
+  },
+  {
+    "timestamp": "2025-10-21T18:13:16.400860Z",
+    "session": "client-ne7hoq5",
+    "sender": "bot",
+    "message": "Hello! How can I help you today?"
+  },
+  {
+    "timestamp": "2025-10-21T18:13:18.567057Z",
+    "session": "client-ne7hoq5",
+    "sender": "user",
+    "message": "HI"
+  },
+  {
+    "timestamp": "2025-10-21T18:13:18.569155Z",
+    "session": "client-ne7hoq5",
+    "sender": "bot",
+    "message": "Hello! How can I help you today?"
+  },
+  {
+    "timestamp": "2025-10-21T18:13:33.015683Z",
+    "session": "client-ne7hoq5",
+    "sender": "user",
+    "message": "What's your name?"
+  },
+  {
+    "timestamp": "2025-10-21T18:13:33.017945Z",
+    "session": "client-ne7hoq5",
+    "sender": "bot",
+    "message": "I'm PyBot \u2014 a sample Python chatbot."
+  },
+  {
+    "timestamp": "2025-10-21T18:13:42.753865Z",
+    "session": "client-ne7hoq5",
+    "sender": "user",
+    "message": "How old are you?"
+  },
+  {
+    "timestamp": "2025-10-21T18:13:42.769773Z",
+    "session": "client-ne7hoq5",
+    "sender": "bot",
+    "message": "You did! Or the developer of this tutorial did \ud83d\ude09"
+  },
+  {
+    "timestamp": "2025-10-21T18:13:57.758638Z",
+    "session": "client-ne7hoq5",
+    "sender": "user",
+    "message": "2+2"
+  },
+  {
+    "timestamp": "2025-10-21T18:13:57.761779Z",
+    "session": "client-ne7hoq5",
+    "sender": "bot",
+    "message": "I heard: \"2+2\". I don't fully understand yet \u2014 try asking 'help' or 'features'."
+  }
+]
