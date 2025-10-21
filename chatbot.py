@@ -54,4 +54,3 @@ def generate_response(message: str, context: dict = None) -> dict:
         "reply": f"I heard: \"{text}\". I don't fully understand yet — try asking 'help' or 'features'.",
         "intent": "fallback"
     }
-

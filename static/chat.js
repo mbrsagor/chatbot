@@ -1,4 +1,3 @@
-// app/static/chat.js
 (function(){
   const messagesEl = document.getElementById('messages');
   const input = document.getElementById('msgInput');
